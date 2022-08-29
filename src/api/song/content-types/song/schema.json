@@ -23,25 +23,11 @@
       "unique": true
     },
     "playTrack": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true,
+      "type": "string",
       "required": true
     },
     "musicTrack": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true,
+      "type": "string",
       "required": true
     }
   }
